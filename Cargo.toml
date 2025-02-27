@@ -9,10 +9,9 @@ opt-level = 's'
 
 [workspace.package]
 authors = [
-    "Amit Upadhyay <upadhyay@gmail.com>",
-    "Siddhant Kumar <siddhant@fifthtry.com>",
+    "your name <your@email.com>",
 ]
-edition = "2021"
+edition = "2024"
 
 [workspace.dependencies]
 ft-sdk = { version = "0.4.1", features = ["sqlite-default", "auth-provider", "field-extractors"] }
