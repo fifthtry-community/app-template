@@ -1,0 +1,10 @@
+[package]
+name = "xtask"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]
+fastn-xtask = { path = "/Users/ayushdeolasee/Developer/fastn/fastn/fastn-xtask" }
+clap = { version = "4.0", features = ["derive"] }
+tokio = { version = "1.36", features = ["full"] }
