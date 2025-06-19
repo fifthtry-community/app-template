@@ -1396,6 +1396,7 @@ dependencies = [
 [[package]]
 name = "fastn-builtins"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "fastn-resolved",
  "indexmap",
@@ -1406,6 +1407,7 @@ dependencies = [
 [[package]]
 name = "fastn-core"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "actix-http",
  "actix-web",
@@ -1460,6 +1462,7 @@ dependencies = [
 [[package]]
 name = "fastn-ds"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "actix-web",
  "async-trait",
@@ -1487,6 +1490,7 @@ dependencies = [
 [[package]]
 name = "fastn-expr"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "thiserror 2.0.12",
 ]
@@ -1494,6 +1498,7 @@ dependencies = [
 [[package]]
 name = "fastn-issues"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "ftd",
  "thiserror 2.0.12",
@@ -1502,6 +1507,7 @@ dependencies = [
 [[package]]
 name = "fastn-js"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "fastn-resolved",
  "indoc",
@@ -1528,6 +1534,7 @@ dependencies = [
 [[package]]
 name = "fastn-package"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "fastn-issues",
  "ftd",
@@ -1537,6 +1544,7 @@ dependencies = [
 [[package]]
 name = "fastn-resolved"
 version = "0.1.1"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "indexmap",
  "serde",
@@ -1545,6 +1553,7 @@ dependencies = [
 [[package]]
 name = "fastn-runtime"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "fastn-builtins",
  "fastn-js",
@@ -1560,6 +1569,7 @@ dependencies = [
 [[package]]
 name = "fastn-utils"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "rusqlite",
  "serde_json",
@@ -1569,6 +1579,7 @@ dependencies = [
 [[package]]
 name = "fastn-wasm"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "async-lock",
  "bytes",
@@ -1596,6 +1607,7 @@ dependencies = [
 [[package]]
 name = "fastn-xtask"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "clap",
  "fastn-core",
@@ -1714,6 +1726,7 @@ dependencies = [
 [[package]]
 name = "ftd"
 version = "0.3.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "comrak",
  "css-color-parser",
@@ -1741,6 +1754,7 @@ dependencies = [
 [[package]]
 name = "ftd-ast"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "colored",
  "ftd-p1",
@@ -1752,6 +1766,7 @@ dependencies = [
 [[package]]
 name = "ftd-p1"
 version = "0.1.0"
+source = "git+https://github.com/fastn-stack/fastn?branch=cli_template_command#944415f1b3118b506048aa51f6f4a8c7ed712205"
 dependencies = [
  "itertools",
  "serde",
