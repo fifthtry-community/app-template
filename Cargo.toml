@@ -1,5 +1,5 @@
 [workspace]
-members = ["backend"]
+members = ["backend", "xtask"]
 resolver = "2"
 
 
